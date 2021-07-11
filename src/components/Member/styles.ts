@@ -2,11 +2,9 @@ import { StyleSheet } from 'react-native';
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
-  container: {
+  container: { 
     width: '100%',
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingHorizontal: 24,
     alignItems: 'center'
   },
   title: {
@@ -14,9 +12,19 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     color: theme.colors.heading
   },
-  subtitle: {
+  nameStatus: {
     fontFamily: theme.fonts.text400,
     fontSize: 13,
-    color: theme.colors.highlight
+    color: theme.colors.heading
+  },
+  status: {
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  bulletStatus: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginRight: 9
   }
 });

@@ -5,6 +5,7 @@ export const theme = {
     secondary100: '#0A1033',
     secondary90: '#0D133D',
     secondary80: '#0E1647',
+    secondary85: '#171f52',
     secondary70: '#1B2565',
     secondary60: '#1B2565', // DUPLICADO
     secondary50: '#243189',
@@ -15,7 +16,8 @@ export const theme = {
     highlight: '#ABB1CC',
     heading: '#DDE3F0',
     line: '#991F36',
-    on: '#32BD50'
+    on: '#32BD50',
+    busy: '#D07622'
   },
   fonts: {
     title700: 'Rajdhani_700Bold',
